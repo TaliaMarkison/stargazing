@@ -1,0 +1,53 @@
+h1 {
+			color : lightgray;
+		}
+		p {
+			color: lightgray;
+		}
+		body {
+			margin : 0;
+			background-color: #0d0d0d;
+			}
+		#navbar {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			background-color:dimgray;
+			overflow: hidden;
+			position:fixed;
+			top:0;
+			width: 100%;
+		}
+		
+		.navitem {
+		text-align:center;
+	 	border-bottom: 0px solid black;
+	 	float: left;
+		}
+		
+		.navitem:last-child{
+		border-bottom: none;
+		}
+		
+		.navitem a {
+			display: block;
+			color: white;
+			text-decoration:none;
+			padding: 16px 32px;
+		}
+		
+		.navitem a.active {
+		background-color: dimgray; 
+		color: lightgray;
+		}
+		
+		.navitem a:hover:not(.active) {
+		background-color: lightgray;
+		color: black;
+		}
+		
+		#main {
+			margin-top: 40px;
+			padding: 20px;
+		
+		}
